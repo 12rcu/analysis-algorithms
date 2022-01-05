@@ -8,6 +8,7 @@ import kotlin.math.pow
  *
  * @param p the norm, if null p = infinity is calculated
  * @param dataPints a list of points out of which the norm should be calculated
+ * @return solution or null if dataPoints were empty
  */
 fun pNorm(p: Int? = null, dataPints: ArrayList<Int>): Float? {
     return if(p != null) {
@@ -19,6 +20,7 @@ fun pNorm(p: Int? = null, dataPints: ArrayList<Int>): Float? {
         //root(innerSum, p)
         innerSum.pow((1f/p))
     } else {
+        //max(|dataPoints|)
         dataPints.maxByOrNull { abs(it) }?.toFloat()?.let { abs(it) }
     }
 }
