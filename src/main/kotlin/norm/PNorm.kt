@@ -10,7 +10,7 @@ import kotlin.math.pow
  * @param dataPints a list of points out of which the norm should be calculated
  * @return solution or null if dataPoints were empty
  */
-fun pNorm(p: Int? = null, dataPints: ArrayList<Int>): Float? {
+fun pNorm(p: Int? = null, dataPints: ArrayList<Float>): Float? {
     return if(p != null) {
         var innerSum = 0f
         dataPints.forEach {
