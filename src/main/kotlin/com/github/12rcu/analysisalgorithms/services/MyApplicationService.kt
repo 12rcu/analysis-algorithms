@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.12rcu.analysisalgorithms.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.12rcu.analysisalgorithms.MyBundle
 
 class MyApplicationService {
 
