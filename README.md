@@ -7,6 +7,7 @@ and is also not intended.
 ## Supported Algorithms
 
 - p-norm 
+- distance between 2 points in n-denominational space
 
 ## License
 MIT
