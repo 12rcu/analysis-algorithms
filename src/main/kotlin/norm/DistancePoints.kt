@@ -11,7 +11,7 @@ import javax.management.InvalidAttributeValueException
  */
 fun distance(pointA: ArrayList<Number>, pointB: ArrayList<Number>): Float? {
     if (pointA.size != pointB.size || pointA.size == 0) {
-        throw InvalidAttributeValueException("pointA and pointB have to be in the same room (pointA.size == pointB.size) R^n and n should be not 0")
+        throw InvalidAttributeValueException("pointA and pointB have to be in the same dimension (pointA.size == pointB.size) => R^n and n should be not 0")
     }
     val pointDiff = arrayListOf<Float>()
     pointA.forEachIndexed { index, number ->
