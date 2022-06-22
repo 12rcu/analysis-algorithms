@@ -9,7 +9,8 @@ and is also not intended.
 ## Supported Algorithms
 
 - p-norm 
-- distance between 2 points in n-denominational space
+- distance between 2 points in n-dimensional space
+- Bézier curve (one dimension)
 
 ## License
 MIT
